@@ -1,37 +1,4 @@
-#include <stdio.h>
-#include <string.h>
-#include <ctype.h>
-#Define MAXLEN 256
-#Define MAXN 100
 
-
-
-
-    char name[MAXN][MAXLEN];
-    char nachname[MAXN][MAXLEN];
-    char strasse[MAXN][MAXLEN];
-    int hausnummer[MAXN];
-    char ort[MAXN][MAXLEN];
-    int plz [MAXN];
-
-
-
-void input (int i){
-    printf("Gebe deinen Namen ein: ");
-    scanf("%s", &name[i]);
-    printf("Gebe deinen Nachname ein: ");
-    scanf("%s", &nachname[i]);
-    printf("Gebe deine Starsse ein: ");
-    scanf("%s", &strasse[i]);
-    printf("Gebe deine Hausnummer ein: ");
-    scanf("%i", &Hausnummer[i]);
-    printf("Gebe deine ort ein: ");
-    scanf("%s", &ort[i]);
-    printf("Gebe deine PLZ ein: ");
-    scanf("%i", &plz[i]);
-
-    i++
-}
 
 void output (int i){
 
@@ -60,7 +27,7 @@ void main (){
 
     while (bool == 1) {
         printf("Select following things ");
-        prtintf("Choice 1: ADD")
+        prtintf("Choice 1: ADD")a
         prtintf("Choice 2: SHOW")
         prtintf("Choice 3: DELETE")
 
